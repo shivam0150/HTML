@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Student Profile</title>
+</head>
+<body>
+<header>
+  <h1>My Profile</h1>
+  <p><em>HTML mini projects:using only tags</em></p>
+  <nav>
+     <a href="#about">About</a>  |
+     <a href="#Skills">Skills</a>  |
+     <a href="#timetable">Timetable</a> |
+     <a href="#Marks">Marks</a> |
+     <a href="#Contact">Contact</a>
+ </nav>
+</header>
+<hr>
+<main>
+ <section id="about">
+    <h2>About Me</h2>
+    <p>
+     My Name:<strong> Shivam Rao</strong>
+     <br>
+     I used <mark>HTML</mark> to made this website.
+     <br>
+     I want to become a good <strong> Software Developer.</strong>
+     <br>
+     I am very <strong>Hardworking and Consistent person. </strong>
+    </p>
+ </section>
+    <hr>
+    <section id="Skills">
+    <h2>My Skills</h2>
+    <ul>
+     <li>Playing Cricket</li>
+     <li>Learning About Tech</li>
+     <li>Love Watching webseries</li>
+     </ul>
+     <h4>To become a Frontend Development</h4>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java Script</li>
+      </ol>
+      <h3>Description list</h3>
+         <pre><strong>        HTML: Web page ka structure banata hai. </strong></pre>
+         <pre><strong>         CSS: Web page ko Sundar banata hai. </strong></pre>
+         </section>
+         <hr>
+         <section id="timetable">
+         <h2>My study Timetable</h2>
+       <table border="4"  cellspacing="4">
+          <caption>Weekly Timetable</caption>
+        <thead>
+         <tr>
+          <th>Day</th>
+          <th>Subject</th>
+          <th>Time</th>
+         </tr>
+          </thead>
+          <tbody>
+         <tr>
+           <th>Monday</th>
+           <th>HTML Tags</th>
+           <th>6PM-7PM</th>
+         </tr>
+         <tr>
+           <th>Tuesday</th>
+           <th>Table and Forms</th>
+           <th>6PM-7PM</th>
+         </tr>
+         <tr>
+           <th>Wednesday</th>
+           <th>Semantigs Tags</th>
+           <th>6PM-7PM</th>
+         </tr>
+         <tr>
+          <th colspan="3">Sunday:Revision Day</th>
+         </tr>
+         </tbody>
+       </table>
+    </section>
+    <hr>
+    <section id="Marks">
+    <h2>Marksheet</h2>
+    <table border="2">
+      <thead>
+        <tr>
+            <td>Subjects</td>
+            <td>Marks</td>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Maths</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>78</td>
+      </tr>
+        <tr>
+        <td>English</td>
+        <td>90</td>
+      </tr>
+       </tbody>
+      <tfoot>
+      <tr>
+        <td>Total</td>
+        <td>253/300</td>
+      </tr>
+     </tfoot>
+    </table>
+    </section>
+    <hr>
+    <section>
+    <h1>Useful Tags</h1>
+<details>
+<summary>My hobbies</summary>
+<p>Reading,playing cricket and most important playing cricket</p>
+</details>
+<p>Progress(HTML course):</p>
+<progress value="50" max="100"></progress>
+<p>My fav link
+<a href="https//google.com" target="_blank">Google</a>
+</p>
+    </section>
+<hr>
+<section id="Contact">
+<h2>Contact Form</h2>
+<form>
+  <fieldset>
+     <legend>My details</legend>
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your name">
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="@gmail.com">
+    </p>
+    <p>
+    <label for="age">Age</label>
+    <input type="number" id="age" min="5" max="10">
+    </p>
+     <p>
+     Gender:
+     <input type="radio" id="m" name="gender" value="Male">
+     <label for="m">Male</label>
+     <input type="radio" id="f" name="gender" value="Female">   
+     <label for="f">Female</label>
+     </p>
+     <p>
+     Intrests:
+     <input type="radio" id="W" name="Intrests" value="Web">
+     <label for="W">Web</label>
+     <input type="radio" id="A" name="Intrests" value="App">
+     <label for="A">App</label>
+     <input type="radio" id="a" name="Intrests" value="AI">
+     <label for="a">AI</label>
+     </p>
+     <p>
+      <label for="course">Course:</label>
+       <select id="course" name="course">
+       <option value=" ">Select</option>
+       <option value=" ">HTML</option>
+       <option value=" ">CSS</option>
+       <option value=" ">js</option>
+       </select>
+     </p>
+     <p>
+       <label for="msg">Message:</label>
+       <textarea id="msg" rows="4" cols="30" placeholder="Type here..."></textarea>
+     </p>
+     <p>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+     </p>
+  </fieldset>
+</form>
+ </section>   
+</main>
+  <hr>
+  <footer>
+
+
+
+
+  </footer>  
+</body>
+</html>
