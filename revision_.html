@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+   <h1>Mirai School of technology </h1> 
+   <nav>
+    <a href="#Steps">Steps</a> |
+    <a href="#Form">Form</a> |
+    <a href="#Timetable">Timetable</a> |
+    <a href="#Fees">Fees</a> |
+    <a href="#Result">Result</a> |
+    </nav>
+    </header>
+    <hr>
+    <section id="Steps">
+    <h2>Admission Steps</h2>
+    <ol>
+        <li>Form Submission</li>
+        <li>Upload Documents</li>
+        <li>Fees Submit</li>
+    </ol>
+    <details>
+     <summary>Important Documnets</summary>
+          <ul>
+           <li>10th Marksheet</li>
+           <li> Passport size photo</li>
+           <li>Aapar ID</li>
+          </ul>   
+    </details>
+    </section>
+    <hr>
+    <section id="Form">
+     <h2>Admission Form</h2>
+        <fieldset>
+     <legend>Personal Details</legend>
+     <p>
+       <label for="name" id="fname"> Name: </label>
+       <input type="name" id="fname" placeholder="Your Name">
+     </p>
+     <p>
+       <label for="email" id="email">Email: </label>
+       <input type="name" id="email" placeholder="@email.com">
+     </p>  
+     <p>
+      <label for="age" id="age">Age</label>
+      <input type="number" id="age" max="4" min="2">
+     </p>
+     <p>
+        <label for="pass" id="pass">Password: </label>
+        <input type="password" id="pass">
+     </p>
+     <p>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" id="dob" >
+     </p>
+     <p>
+     Gender: 
+     <input type="radio" id="male">
+     <label for="gender" id="male">Male</label>
+     <input type="radio" id="female"> 
+     <label for="gender" id="female">Female</label>
+     <input type="radio" id="other">
+     <label for="gender" id="other">Other</label>
+     </p>
+      <p>
+      <label for="photo">Photo</label> 
+      <input type="file" id="photo">
+      </p>
+      </fieldset>
+     <fieldset>
+      <legend>Academic Details</legend>
+      <p>
+       <label for="number" id="num">10th Percentage</label>
+       <input type="number" id="num" max="2" min="4">
+        </p>
+       <p>
+        <label for="course">Course: </label>
+        <select id="course" name="course">
+            <optgroup label="Science">
+        <option value="pcm">PCM</option>
+        <option value="pcb">PCB</option>
+         </optgroup>
+         <optgroup label="Commerce">
+            <option value="acc">Accounts</option>
+            <option value="eco">Economics</option>
+         </optgroup>
+            </select>
+           </p> 
+           <p>
+            <label for="name" id="school">Previous School</label>
+            <input type="name" id="school">
+           </p>
+           <p>
+            Subjects:
+            <input type="radio" id="subjects">
+            <label for="subjects">Maths</label>
+            <input type="radio" id="subjects">
+            <label for="subjects">Physics</label>
+            <input type="radio" id="subjects">
+            <label for="subjects">Chemistry</label>
+            <input type="radio" id="subjects">
+            <label for="subjects">English</label>
+           </p>
+           <p>
+            <label for="intrest">Intresst Level(1-10):</label>
+             <input type="range" min="60" max="100">
+           </p>
+     </fieldset>
+     <fieldset>
+        <legend>Address</legend>
+        <p>
+        <label for="address">Address: </label>
+       <textarea id="address"></textarea>
+        </p>
+        <p>
+            <label for="State">State: </label>
+            <select id="state" name="state">
+                <option value="rj" selected>Rajasthan</option>
+                <option value="up">Uttar Pradesh</option>
+                <option value="uk">Uttara Khand</option> 
+            </select>
+        </p>
+        <p>
+        <label for="pincode" id="pc">Pincode: </label>
+        <input type="number" id="pc">
+        </p>
+        <p>
+            <label for="Country">Country</label>
+            <input type="text">
+        </p>
+        <p>
+          <label for="Id">OLD ID: </label>
+          <input type="text" placeholder="Not allowed" >
+        </p>
+     </fieldset>
+     <fieldset>
+     <legend>Extra</legend>
+     <p>
+     <label for="Call Time">Call Time: </label>
+     <input type="time">
+     </p>
+     <p>
+        <label for="link">Portfolio Link: </label>
+        <input type="text" id="link" placeholder="https://">
+     </p>
+      <p>
+        <label for="fav col">Favourite Color:</label>
+        <input type="color" id="color">
+      </p>
+      <p>
+        <input type="checkbox">
+        <label for="tick">I accept all the terms and conditions.</label>
+      </p>
+     </fieldset>
+     <br>
+     <button type="submit">Submit</button>
+     <button type="Reset">Reset</button>
+     <button type="help">Help</button>
+    </section>
+    <section id="Fees">
+        <hr>
+        <h2>Fee Structure</h2>
+        <table border="1">
+         <caption>Yearly Fees(Rs.)</caption>
+         <thead>
+            <tr>
+                <th rowspan="2">Course</th>
+                <th colspan="2">Fee Details</th>
+                 <th rowspan="2">Total</th>
+            </tr>
+            <tr>
+                <th>Tution</th>
+                <th>Hostel</th>
+            </tr>
+            </thead>
+            <tbody>
+             <tr>
+                <td>PCM</td>
+                <td>500</td>
+                <td>200</td>
+                <td>700</td>
+             </tr>
+             <tr>
+                <td>PCB</td>
+                <td>550</td>
+                <td>200</td>
+                <td>750</td>
+             </tr>
+             <tr>
+                <td>Commerce</td>
+                <td>400</td>
+                <td>150</td>
+                <td>550</td>
+             </tr>
+             </tbody>
+             <tfoot>
+             <tr>
+                <td>Grand Total</td>
+                <td>145</td>
+                <td>550</td>
+                <td>2000</td>
+             </tr>
+         </tfoot>
+        </table>
+    </section>
+    <hr>
+    <section id="Timetable">
+      <h2>Class Timetable</h2>
+      <caption>Weekly Timetable</caption>
+      <table border="4">
+       <thead>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wed</th>
+            <th>Thu</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>9-10</td>
+            <td>Maths</td>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <th>10-11</th>
+            <th rowspan="2">Chemistry(2hr)</th>
+            <th>Biology</th>
+            <th>Maths</th>
+            <th>English</th>
+        </tr>
+        <tr>
+            <TD>11-12</TD>
+            <TD>ENG</TD>
+            <TD>Com</TD>
+            <TD>Chem</TD>
+        </tr>
+        <tr>
+            <th colspan="5">LUNCH BREAK</th>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+           <td>1-2</td>
+           <td>Maths</td>
+           <td colspan="2">Lab(Tue+Wed)</td>
+           <td>Sports</td>
+        </tr>
+        <tr>
+            <th colspan="5">Note:Timetable may be change</th>
+        </tr>
+        </tfoot>
+        </section>
+        <section id="Result">
+       <h2>Student Result</h2>
+         <table border="1">
+         <thead>
+            <tr>
+                <th>Student Info</th>
+                <th>Marks</th>
+            </tr>
+         </thead>
+          <tbody>
+            <tr>
+                <td>
+                    Name:Shivam<br>
+                    Class : Btech<br>
+                    Roll no: 11
+                </td>
+                <td>
+                <table border="1">
+                 <tr>
+                    <td>Subjects</td>
+                    <td>Marks</td>
+                    <td>Grade</td>
+                 </tr>
+                 <tr>
+                    <td>Maths</td>
+                    <td>85</td>
+                    <td>A</td>
+                 </tr>
+                 <tr>
+                    <td>Science</td>
+                    <td>78</td>
+                    <td>B+</td>
+                 </tr>
+                </table>
+                </td>
+                <hr>
+                 
+            
+                
+            </tr>
+          </tbody>
+
+
+         </table>
+        </section>
+
+
+
+
+      </table>
+   
+
+</body>
+</html>
